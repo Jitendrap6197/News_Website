@@ -1,5 +1,5 @@
 const API_KEY = "b3e7f48e894f2dbc01dc57723dea263f";
-const url = "http://api.mediastack.com/v1/news?access_key=";
+const url = "http://api.mediastack.com/v2/everything?q=";
 
 window.addEventListener("load", () => fetchNews("India"));
 
